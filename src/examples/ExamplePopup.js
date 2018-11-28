@@ -1,5 +1,5 @@
-import React from 'react';
-import { ReactTypeformEmbed } from '../components';
+import React from "react";
+import ReactTypeformEmbed from "../components";
 
 class ExamplePopup extends React.Component {
   constructor(props) {
@@ -17,14 +17,21 @@ class ExamplePopup extends React.Component {
         <ReactTypeformEmbed
           popup={true}
           autoOpen={false}
-          url={'https://demo.typeform.com/to/njdbt5'}
+          url={"https://demo.typeform.com/to/njdbt5"}
           hideHeaders={true}
           hideFooter={true}
           buttonText="Go!"
-          style={{top: 100}}
-          ref={(tf => this.typeformEmbed = tf) }/>
+          style={{ top: 100 }}
+          ref={tf => (this.typeformEmbed = tf)}
+        />
 
-        <button className="btn" onClick={this.openForm} style={{cursor: 'pointer'}}>Click to open the popup!</button>
+        <button
+          className="btn"
+          onClick={this.openForm}
+          style={{ cursor: "pointer" }}
+        >
+          Click to open the popup!
+        </button>
       </div>
     );
   }

@@ -1,1 +1,1 @@
-export {default as ReactTypeformEmbed} from './ReactTypeformEmbed';
+export { default } from "./ReactTypeformEmbed";
