@@ -1,5 +1,5 @@
 {
-  "name": "react-typeform-embed",
+  "name": "react-typeform-embed-2",
   "version": "0.1.6",
   "main": "./lib/index.js",
   "engines": {
@@ -10,17 +10,12 @@
     "email": "info@alexgarces.com",
     "url": "https://alexgarces.com"
   },
-  "files": [
-    "lib"
-  ],
-  "keywords": [
-    "components",
-    "react",
-    "react-component",
-    "typeform"
-  ],
+  "files": ["lib"],
+  "keywords": ["components", "react", "react-component", "typeform"],
   "dependencies": {
-    "@typeform/embed": "^0.5.8",
+    "@typeform/embed": "^0.5.8"
+  },
+  "peerDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.13"
